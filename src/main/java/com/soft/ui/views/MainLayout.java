@@ -1,8 +1,8 @@
-package com.soft.views;
+package com.soft.ui.views;
 
 
-import com.soft.views.about.AboutView;
-import com.soft.views.helloworld.HelloWorldView;
+import com.soft.ui.routes.AboutRoute;
+import com.soft.ui.routes.HelloRoute;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.dependency.NpmPackage;
@@ -104,9 +104,9 @@ public class MainLayout extends AppLayout {
 
     private MenuItemInfo[] createMenuItems() {
         return new MenuItemInfo[]{ //
-                new MenuItemInfo("Hello World", "la la-globe", HelloWorldView.class), //
+                new MenuItemInfo("Hello World", "la la-globe", HelloRoute.class), //
 
-                new MenuItemInfo("About", "la la-file", AboutView.class), //
+                new MenuItemInfo("About", "la la-file", AboutRoute.class), //
 
         };
     }

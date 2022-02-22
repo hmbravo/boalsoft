@@ -11,6 +11,8 @@
 node_modules/
 pnpmfile.js
 
+frontend/generated/
+.vscode/
 
 # Browser drivers for local integration tests
 drivers/

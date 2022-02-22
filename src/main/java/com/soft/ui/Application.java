@@ -1,4 +1,4 @@
-package com.soft;
+package com.soft.ui;
 
 import com.vaadin.flow.component.dependency.NpmPackage;
 import org.springframework.boot.SpringApplication;
